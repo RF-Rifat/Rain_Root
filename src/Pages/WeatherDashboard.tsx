@@ -6,6 +6,7 @@ import { WeatherData } from "../../types/types";
 import SearchBar from "../components/SearchBar";
 import ToggleUnit from "../components/ToggleUnit";
 import WeatherCard from "../components/WeatherCard";
+import { FolderSearch } from "lucide-react";
 
 const WeatherDashboard: React.FC = () => {
   const [cities, setCities] = useState<WeatherData[]>([]);
@@ -141,11 +142,7 @@ const WeatherDashboard: React.FC = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <img
-                    src="/api/placeholder/200/200"
-                    alt="Empty state"
-                    className="w-32 h-32 mb-6 opacity-40"
-                  />
+                  <FolderSearch className="w-16 h-16 text-indigo-600" />
                   <h3 className="text-xl font-semibold text-gray-700 mb-2">
                     No cities added yet
                   </h3>
