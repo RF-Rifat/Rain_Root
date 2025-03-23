@@ -109,7 +109,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onAddCity }) => {
       </motion.div>
 
       <AnimatePresence>
-        {suggestions.length > 0 && (
+        {suggestions.length > 1 && (
           <motion.div
             className="absolute z-10 mt-2 w-full bg-white rounded-lg shadow-xl overflow-hidden"
             initial={{ opacity: 0, y: -10, height: 0 }}
@@ -170,7 +170,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onAddCity }) => {
 
 export default SearchBar;
 
-// Add this component since it was used
 const X = ({ size = 24 }: { size?: number }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
