@@ -4,7 +4,7 @@
 A modern and responsive weather dashboard built with **React**, **TypeScript**, and **Tailwind CSS**. This application allows users to view real-time weather information for multiple cities, toggle between Celsius and Fahrenheit, and manage their city list with ease.
 
 ![Weather Dashboard Screenshot](https://github.com/RF-Rifat/Rain_Root/blob/main/public/screenshot.png?raw=true)  
-_(Replace with an actual screenshot of your project)_
+
 
 ---
 
