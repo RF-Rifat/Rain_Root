@@ -32,7 +32,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onAddCity }) => {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://api.openweathermap.org/geo/1.0/direct?q=${searchQuery}&limit=5&appid=5472d85f1779228033b3c82a4a55edf6`
+          `https://api.openweathermap.org/geo/1.0/direct?q=${searchQuery}&limit=5&appid=5472d85f1779228033b3c82a4a55edf6`
         );
         setSuggestions(
           response.data.map(
