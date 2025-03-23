@@ -48,21 +48,13 @@ Follow these steps to set up the project locally:
    npm install
    ```
 
-3. **Set up environment variables**:
-
-   - Create a `.env` file in the root directory.
-   - Add your OpenWeatherMap API key:
-     ```env
-     VITE_OPENWEATHERMAP_API_KEY=your_api_key_here
-     ```
-
-4. **Run the development server**:
+3. **Run the development server**:
 
    ```bash
    npm run dev
    ```
 
-5. **Open the app**:
+4. **Open the app**:
    Visit `http://localhost:5173` in your browser.
 
 ---
